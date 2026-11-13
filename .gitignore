@@ -1,0 +1,28 @@
+# 個人情報・認証情報（絶対にコミットしない）
+config.json
+*.local.json
+.env
+
+# 認証・トークン
+*_token.json
+*client_secret*.json
+*.pem
+*.key
+credentials*.json
+
+# 実行時 state / ログ / DB（コマ・学籍番号・掲示が入りうる）
+state*.json
+*_state.json
+*.log
+*.db
+*.sqlite
+*.sqlite3
+cache/
+data/
+documents/
+
+# 生成物
+__pycache__/
+*.pyc
+.venv/
+venv/

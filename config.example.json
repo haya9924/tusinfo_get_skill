@@ -1,0 +1,15 @@
+{
+  "_comment": "~/.config/tus-info/config.json にコピーして自分の値を入れる。ここに書いた値は絶対にコミットしない。全部省略可（省略時は既定値で動く）。",
+  "cdp_url": "http://127.0.0.1:9223",
+
+  "paths": {
+    "_comment": "課題DB と保存ファイルの置き場所。",
+    "data": "~/.local/share/tusinfo",
+    "documents": "~/documents/tusinfo"
+  },
+
+  "assignments": {
+    "_comment": "タイトルにこれを含む課題は DB で非表示にする（履修していない班の課題など）。",
+    "ignore_patterns": []
+  }
+}
